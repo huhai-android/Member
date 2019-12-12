@@ -1,0 +1,32 @@
+
+ 2018年2月2号上线日志：
+  版本号：versionCode 1
+  版本名称： versionName 1.0.0
+
+
+
+ 2019年3月6号上线日志：
+   版本号：versionCode 2
+   版本名称： versionName 1.0.1
+
+ 2019年3月16号上线日志：
+   版本号：versionCode3
+   版本名称： versionName 1.1.0
+ 2019年3月16号上线日志：
+   版本号：versionCode4
+   版本名称： versionName 1.1.1
+
+  2019年4月9号上线日志：
+    版本号：versionCode 5
+    版本名称： versionName 1.2.0
+
+2019年8月17号上线日志：
+        版本号：versionCode 6
+        版本名称： versionName 1.3.0
+
+
+2019年8月17号上线日志：
+        版本号：versionCode 7
+        版本名称： versionName 1.3.1
+
+        修复新账号，直接问诊就能聊天的问题

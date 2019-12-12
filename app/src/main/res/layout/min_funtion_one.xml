@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><!--头部菜单-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:src="@mipmap/icon_chufangdingdan"></ImageView>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="@dimen/dp_7"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:gravity="center"
+                android:text="处方订单"
+                android:textColor="#ff333333"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:src="@mipmap/icon_wenzhendingdan"></ImageView>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="@dimen/dp_7"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:gravity="center"
+                android:text="问诊订单"
+                android:textColor="#ff333333"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:src="@mipmap/icon_shangchengdingdan"></ImageView>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="@dimen/dp_7"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:gravity="center"
+                android:text="商城订单"
+                android:textColor="#ff333333"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:src="@mipmap/icon_fuwubaodingdan"></ImageView>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="@dimen/dp_7"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:gravity="center"
+                android:text="服务包订单"
+                android:textColor="#ff333333"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+</LinearLayout>

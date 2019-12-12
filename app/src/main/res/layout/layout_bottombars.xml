@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--底部菜单Bar-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rg_tab"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <com.newdjk.member.views.BottomTabRadioButton
+        android:id="@+id/rb_tab1"
+        style="@style/RadioButtonBottomTab"
+        android:checked="true"
+        android:layout_marginTop="@dimen/dp_5"
+        android:drawableTop="@drawable/home_selectot"
+        android:text="首页"
+        android:textColor="@color/bottombar_color_theme_gray"
+        android:textSize="@dimen/text_size_micro"
+        app:drawableHeights="16dp"
+        app:drawableWidths="16dp" />
+
+    <com.newdjk.member.views.BottomTabRadioButton
+        android:id="@+id/rb_tab2"
+        style="@style/RadioButtonBottomTab"
+        android:layout_marginTop="@dimen/dp_5"
+        android:drawableTop="@drawable/monitor_selectot"
+        android:text="找医生"
+        android:textColor="@color/bottombar_color_theme_gray"
+        android:textSize="@dimen/text_size_micro"
+        app:drawableHeights="16dp"
+        app:drawableWidths="16dp" />
+    <com.newdjk.member.views.BottomTabRadioButton
+        android:id="@+id/rb_tab3"
+        android:layout_marginTop="@dimen/dp_5"
+        style="@style/RadioButtonBottomTab"
+        android:drawableTop="@drawable/message_selectot"
+        android:text="消息"
+        android:textColor="@color/bottombar_color_theme_gray"
+        android:textSize="@dimen/text_size_micro"
+        app:hint_rightpadding="20dp"
+        app:drawableHeights="16dp"
+        app:drawableWidths="16dp" />
+    <com.newdjk.member.views.BottomTabRadioButton
+        android:id="@+id/rb_tab4"
+        android:layout_marginTop="@dimen/dp_5"
+        style="@style/RadioButtonBottomTab"
+        android:drawableTop="@drawable/personal_selectot"
+        android:text="我的"
+        android:textColor="@color/bottombar_color_theme_gray"
+        android:textSize="@dimen/text_size_micro"
+        app:drawableHeights="16dp"
+        app:drawableWidths="16dp" />
+
+</LinearLayout>

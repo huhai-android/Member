@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WxShareLibrary</string>
+    <!--分享相关-->
+    <string name="not_installed_weixin">没安装微信</string>
+    <string name="share_wechat_friend">微信好友</string>
+    <string name="share_wechat_zone">微信朋友圈</string>
+    <string name="common_cancel">取 消</string>
+</resources>

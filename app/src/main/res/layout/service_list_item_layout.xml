@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_90"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/service_pack_icon_iv"
+                android:layout_width="@dimen/dp_75"
+                android:layout_height="@dimen/dp_75"
+                android:layout_gravity="center_vertical" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_8"
+                android:paddingTop="@dimen/dp_10"
+                android:paddingBottom="@dimen/dp_10">
+
+                <TextView
+                    android:id="@+id/service_pack_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="儿童保健服务"
+                    android:textSize="@dimen/sp_14"
+                    android:singleLine="true"
+                    android:maxEms="14"
+                    android:ellipsize="end"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/OrgName_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/font_gray_5"
+                    android:textSize="@dimen/sp_12"
+                    />
+
+                <TextView
+                    android:id="@+id/fit_people_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/font_gray_5"
+                    android:textSize="@dimen/sp_12"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/service_pack_price_tv"
+                style="@style/wrap_content"
+                android:text="@string/price"
+                android:layout_gravity="right"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tv_deposit"
+                style="@style/wrap_content"
+                android:text="@string/price"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/sp_10" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

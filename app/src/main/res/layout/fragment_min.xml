@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mine_fragment"
+    android:orientation="vertical">
+
+
+    <com.newdjk.member.views.ObservableScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="150dp"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/min_function_old"
+                android:visibility="gone" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal">
+
+                <com.newdjk.member.views.CircleImageView
+                    android:id="@+id/headicon"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:src="@drawable/default_group" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_8"
+                    android:layout_toRightOf="@id/headicon"
+                    android:text="蒋一蓓"
+                    android:textColor="#ffffffff"
+                    android:textSize="17sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tvName"
+                    android:src="@drawable/ic_chevron_right_white_24dp"></ImageView>
+
+
+                <ImageView
+                    android:id="@+id/mSystemSetting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_15"
+                    android:gravity="right"
+                    android:src="@mipmap/icon_shezhi"></ImageView>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_12"
+                android:layout_marginBottom="11dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:layout_weight="1"
+                    android:text="我的订单"
+                    android:textColor="#ff333333"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dp_15"
+                    android:background="@drawable/min_check_more"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingTop="@dimen/dp_3"
+                    android:paddingRight="@dimen/dp_10"
+                    android:paddingBottom="@dimen/dp_3"
+                    android:text="查看更多"
+                    android:textColor="#ff2c66d3"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="@color/mistyrose" />
+
+            <include layout="@layout/min_funtion_one" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_10"
+                android:background="#FAFAFA" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginTop="@dimen/dp_12"
+                android:layout_marginBottom="@dimen/dp_12"
+                android:text="常用工具"
+                android:textColor="#ff333333"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="@color/mistyrose" />
+
+            <include layout="@layout/min_funtion_two" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_10"
+                android:background="#FAFAFA" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginTop="@dimen/dp_12"
+                android:layout_marginBottom="@dimen/dp_12"
+                android:text="病例档案"
+                android:textColor="#ff333333"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="@color/mistyrose" />
+
+
+            <com.newdjk.member.views.ViewPagerForScrollView
+                android:id="@+id/patientViewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </com.newdjk.member.views.ViewPagerForScrollView>
+
+            <LinearLayout
+                android:id="@+id/dot_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="@dimen/dp_30"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible" />
+        </LinearLayout>
+    </com.newdjk.member.views.ObservableScrollView>
+
+    <include
+        layout="@layout/layout_titlebar"
+        android:visibility="gone" />
+</RelativeLayout>
+
+

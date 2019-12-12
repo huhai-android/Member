@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.newdjk.member.views.FitWindowLayoutV2 xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical"
+    style="@style/ll_activity">
+
+    <include layout="@layout/layout_titlebar" />
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <include layout="@layout/chat_input" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/accept_tip"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/liear_titlebar"
+            android:background="@color/huang"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/accept_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/frame"
+            android:layout_below="@id/accept_tip">
+
+            <com.ajguan.library.EasyRefreshLayout
+                android:id="@+id/easylayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/chat_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/frame"
+                    android:layout_below="@id/accept_tip"
+                    android:transcriptMode="normal" />
+            </com.ajguan.library.EasyRefreshLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/voice_sending"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/voice_tip"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/cancle_voice_sending"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/cancle_tall_shape"
+            android:gravity="center"
+            android:text="@string/chat_release_cancel"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_over_bottom_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include layout="@layout/layout_chat_bottom_over" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</com.newdjk.member.views.FitWindowLayoutV2>

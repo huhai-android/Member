@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ll_activity">
+
+    <include layout="@layout/layout_titlebar" />
+
+    <EditText
+        android:id="@+id/mSuggestionContent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_250"
+        android:layout_margin="@dimen/dp_10"
+        android:hint="请输入调试的H5界面"
+        android:padding="@dimen/dp_5"
+        android:textColor="@color/font_gray_3"
+        android:textColorHint="@color/font_gray_3"
+        android:gravity="left"
+        android:textSize="20sp"
+        android:background="@drawable/suggestion_bg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="file:///android_asset/index.html#/doctor-index?DrId=147"
+            />
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/copy"
+        style="@style/btn_default"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dp_10"
+        android:minHeight="@dimen/dp_40"
+        android:text="使用示例H5地址"
+        android:textColor="@color/font_white_gray"
+        android:textSize="@dimen/sp_16"  />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/btn_save"
+        style="@style/btn_default"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:minHeight="@dimen/dp_40"
+        android:text="保存"
+        android:textColor="@color/font_white_gray"
+        android:textSize="@dimen/sp_16"  />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/btn_todebug"
+        style="@style/btn_default"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:minHeight="@dimen/dp_40"
+        android:text="调试"
+        android:textColor="@color/font_white_gray"
+        android:textSize="@dimen/sp_16"  />
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:zhy="http://schemas.android.com/tools"
+        style="@style/ll_activity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:layout_marginTop="@dimen/dp_8"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_32"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_weight="1"
+                android:background="@drawable/search_edit_bg"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_10">
+
+                <EditText
+                    android:id="@+id/mEditText"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dp_32"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/home_et_hint"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:textColor="@color/font_gray_3"
+                    android:textColorHint="@color/font_gray_3"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/mSearchTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_15"
+                    android:text="搜索"
+                    android:textColor="@color/font_gray_4"
+                    android:textSize="@dimen/sp_12" />
+            </LinearLayout>
+            <!--<EditText-->
+            <!--android:id="@+id/mEditText"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="@dimen/dp_32"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="@dimen/dp_15"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/search_edit_bg"-->
+            <!--android:hint="@string/home_et_hint"-->
+            <!--android:imeOptions="actionSearch"-->
+            <!--android:inputType="text"-->
+            <!--android:maxLength="30"-->
+            <!--android:paddingLeft="@dimen/dp_10"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="@color/font_gray_3"-->
+            <!--android:textColorHint="@color/font_gray_3"-->
+            <!--android:textSize="@dimen/sp_12" />-->
+
+            <TextView
+                android:id="@+id/mCancelTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_15"
+                android:text="取消"
+                android:textColor="@color/font_gray_4"
+                android:textSize="@dimen/sp_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginRight="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/mHistoryContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search_hostory"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_12" />
+
+
+                <ImageButton
+                    android:id="@+id/mIvClear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/icon_search_del" />
+            </RelativeLayout>
+
+
+            <com.newdjk.member.views.TagFlowLayout
+                android:id="@+id/mFlowlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:visibility="gone"
+                zhy:max_select="1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginRight="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_hot"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_12" />
+
+            <com.newdjk.member.views.TagFlowLayout
+                android:id="@+id/mHotFlowlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                zhy:max_select="1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>

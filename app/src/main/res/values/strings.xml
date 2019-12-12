@@ -1,0 +1,343 @@
+<resources>
+
+    <string name="app_name">芸医</string>
+
+    <!-- 图片浏览 -->
+    <string name="finish">完成</string>
+    <string name="album">相册</string>
+    <!--/////////////////////-->
+    <string name="digits">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+    <string name="step_over">跳过</string>
+    <string name="NextStep">下一步</string>
+    <string name="myOrder">我的订单</string>
+    <string name="me_tool">常用工具</string>
+    <string name="me_tool1">胎心监护</string>
+    <string name="me_tool2">我的处方</string>
+    <string name="me_tool3">我的医生</string>
+    <string name="me_tool4">我的评价</string>
+    <string name="me_tool5">随访记录</string>
+    <string name="me_tool6">优惠券</string>
+    <string name="me_tool7">地址管理</string>
+    <string name="me_tool8">就诊人管理</string>
+    <string name="me_tool10">系统设置</string>
+    <string name="me_tool11">病历档案</string>
+    <string name="message_title">消息中心</string>
+    <string name="end_of_the_interrogation">结束问诊</string>
+    <string name="add_your_resume">补充病历</string>
+    <!--复用 腾讯云im的demo 的属性-->
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="chat_press_talk">按住说话</string>
+    <string name="chat_release_send">松开结束</string>
+    <string name="chat_release_cancel">松开手指，取消发送</string>
+    <string name="chat_image">图片</string>
+    <string name="chat_camera">相机</string>
+
+    <!-- time -->
+    <string name="time_yesterday">昨天</string>
+    <string name="time_day">日</string>
+    <string name="time_month">月</string>
+    <string name="time_year">年</string>
+    <string name="me_order0">图文问诊</string>
+    <string name="me_order2">视频问诊</string>
+    <string name="me_order3">在线续方</string>
+    <string name="me_order4">处方单订单</string>
+    <string name="me_order5">服务包</string>
+    <string name="me_order8">护理咨询</string>
+    <string name="me_order9">远程护理</string>
+
+    <!-- call -->
+    <string name="tip_end_call">挂断</string>
+
+    <string name="home_et_hint">疾病、医院、科室、医生</string>
+    <string name="accountOrPassError">账号或密码错误</string>
+    <string name="loginsuccess">登录成功</string>
+    <string name="about_copy_right">CopyRight @ 芸医2019</string>
+    <string name="photograph">拍照</string>
+
+    <!--监护设置-->
+    <string name="monitor_setting_title_string">监护设置</string>
+    <string name="monitor_setting_automatically_start_string">自动开始</string>
+    <string name="monitor_setting_call_police_string">报警设置</string>
+    <string name="monitor_setting_select_time_tip_string">选择时间间隔，间隔时间之内不重复报警</string>
+    <string name="monitor_setting_interval_unit_string">秒</string>
+    <string name="monitor_setting_automatically_complete_monitor_string">自动完成监测</string>
+    <string name="monitor_setting_complete_monitor_tip_string">开启后，系统会根据选择的时长自动完成监测并保存到本地；\n检测过程中，可以手动完成监测</string>
+    <string name="monitor_setting_complete_front_string">自动完成，监测时长</string>
+    <string name="monitor_setting_complete_behind_string">分钟</string>
+    <string name="monitor_setting_wifi_automatically_upload_string">WIFI环境下自动上传</string>
+    <string name="monitor_setting_save_tip_string">设置内容以及更改，是否进行保存？</string>
+
+    <!--用户信息-->
+    <string name="user_note_title_string">填写信息</string>
+    <string name="user_note_tip_string">为确保监护准确，请您填写以下信息</string>
+    <string name="user_note_username_string">选择就诊人</string>
+    <string name="user_note_pregnancy_cycle_string">预产期</string>
+    <string name="user_note_emergency_contact_person_string">紧急联系人</string>
+    <string name="user_note_emergency_contact_person_hint_string">请输入紧急联系人</string>
+    <string name="user_note_emergency_contact_tel_string">紧急联系电话</string>
+    <string name="user_note_emergency_contact_tel_hint_string">请输入紧急联系电话</string>
+    <string name="user_note_save_btn_string">保存</string>
+    <string name="user_note_dialog_cancel_string">取消</string>
+    <string name="user_note_dialog_sure_string">确定</string>
+    <string name="user_note_dialog_tip_string">为了便于医生更好的为您提供服务，请务必确保您填写的信息准确无误。</string>
+    <string name="user_note_emergency_contact_person_null_string">紧急联系人不能为空！</string>
+    <string name="user_note_emergency_contact_tel_null_string">紧急联系电话不能为空！</string>
+
+    <!--胎心监护-->
+    <string name="fetalheart_monitor_title_string">胎心监护</string>
+    <string name="fetalheart_monitor_contractions_pressure_string">宫缩压</string>
+    <string name="fetalheart_monitor_heart_rate_string">胎心率</string>
+    <string name="fetalheart_monitor_quickening_number_string">胎动数</string>
+    <string name="fetalheart_monitor_heart_range_string">正常胎心范围</string>
+    <string name="fetalheart_monitor_move_number_string">胎动次数</string>
+    <string name="fetalheart_monitor_start_string">开始监护</string>
+    <string name="fetalheart_monitor_contractions_pressure_unit_string">mmhg</string>
+    <string name="fetalheart_monitor_heart_rate_uint_string">BPM</string>
+    <string name="fetalheart_monitor_move_number_uint_string">次</string>
+    <string name="fetalheart_monitor_connecting_tip_string">正在连接，请稍后...</string>
+    <string name="fetalheart_monitor_start_bluetooth_connect_string">请先启动蓝牙连接</string>
+    <!--蓝牙服务中的字符串-->
+    <string name="fetalheart_monitor_record_start_string">记录开始</string>
+    <string name="fetalheart_monitor_recording_string">记录中...</string>
+    <string name="fetalheart_monitor_record_finished_string">记录结束</string>
+    <string name="fetalheart_monitor_service_read_data_fail_string">监测到设备连接已断开，请检查蓝牙或胎心仪是否开启</string>
+    <string name="fetalheart_monitor_back_note_string">正在监测，确定返回上个界面吗？</string>
+    <string name="fetalheart_monitor_complete_string">确认完成本次监护？</string>
+    <string name="fetalheart_monitor_setting_complete_string">设置监测时间已到，该次监测已完成！</string>
+
+    <!--监护详情-->
+    <string name="monitor_detail_title_string">监护详情</string>
+    <string name="monitor_detail_data_unknown_string">找医生解读曲线</string>
+    <string name="min">已是最小比例</string>
+    <string name="max">已是最大比例</string>
+    <string name="data_none">---</string>
+    <string name="monitor_detail_upload_tip_string">上传数据中，请稍后...</string>
+    <string name="monitor_detail_time_low_no_ask_doctor_string">监护时长未满20分钟无法问医！</string>
+
+    <!--连接设备-->
+    <string name="device_connect_monitor_setting_string">监护设置</string>
+    <string name="device_connect_guide_string">操作指导</string>
+    <string name="device_connect_connecting_tip_string">连接胎心监护设备\n触碰屏幕精选连接</string>
+    <string name="device_connect_no_service_string">服务尚未开通，请开通服务！</string>
+    <string name="device_connect_no_pay_order_string">您有未支付订单需要支付，请您支付！</string>
+    <string name="device_connect_no_bind_front_string">您的设备还未绑定，请联系工作人员绑定设备；服务电话：</string>
+    <string name="device_connect_no_bind_behind_string">；该服务电话为医院定点运营人员电话；点击可直接拨打；</string>
+
+    <!--知情同意书-->
+    <string name="agree_book_title_string">知情同意书</string>
+    <string name="the_chat_more_continuation">续方申请</string>
+    <string name="select_city_area">选择地区</string>
+
+    <!--请求结果-->
+    <string name="request_result_title_string">请求结果</string>
+    <string name="request_result_tip_string">您的判读请求已发送，医生会在半小时内给您读结果，\n请注意在【我的监护记录】中查看报告</string>
+    <string name="request_result_time_end_string">时间已到，请联系工作人员！</string>
+    <string name="request_result_complete_string">完成</string>
+
+    <!--基础服务包-->
+    <string name="service_list_title_string">服务包选择</string>
+    <string name="service_list_select_detail_string">查看详情</string>
+
+    <!--服务包详情-->
+    <string name="service_detail_title_string">服务包详情</string>
+    <string name="service_detail_introduce_string">服务介绍</string>
+    <string name="service_detail_content_string">服务内容</string>
+    <string name="service_detail_team_string">服务团队</string>
+    <string name="service_detail_evaluation_string">评价</string>
+    <string name="service_detail_money_string">应付金额：</string>
+    <string name="service_detail_buy_string">去购买</string>
+    <string name="service_detail_money_unit_string">¥</string>
+    <string name="service_detail_dialog_ok_string">知道了</string>
+
+    <!--订单生成界面-->
+    <string name="order_title_string">生成订单</string>
+    <string name="order_service_deposit_string">设备领取</string>
+    <string name="order_service_package_string">服务内容</string>
+    <string name="order_select_pay_way_string">请选择支付方式：</string>
+    <string name="order_pay_treasure_string">支付宝支付</string>
+    <string name="order_weixin_string">微信支付</string>
+    <string name="order_already_read_string">已阅读并同意</string>
+    <string name="order_agree_book_string">《知情同意书》</string>
+    <string name="order_price_total_string">合计：</string>
+    <string name="order_pay_string">立即支付</string>
+    <string name="order_money_unit_string">¥</string>
+    <string name="order_device_name_string">设备名称：</string>
+    <string name="order_device_deposit_string">设备押金：¥</string>
+    <string name="order_total_money_unit_string">¥</string>
+    <string name="order_no_payway_toast_string">支付方式未选择，请选择支付方式！</string>
+    <string name="order_no_agree_string">知情同意书未同意，不能进行支付！</string>
+    <string name="order_service_long_string">服务周期：</string>
+    <string name="order_day_string">天</string>
+
+    <!--订单确认-->
+    <string name="check_order_title_string">订单确认</string>
+    <string name="check_order_number_string">订单编号:</string>
+    <string name="check_order_publish_time_string">下单时间:</string>
+    <string name="check_order_service_deadline_string">服务截止日期:</string>
+    <string name="check_order_total_string">合计:</string>
+    <string name="check_order_money_unit_string">¥</string>
+    <string name="check_order_pay_string">结算</string>
+    <string name="check_order_note_string">订单信息</string>
+
+    <!--操作引导页-->
+    <string name="guide_operate_1_string">请确保胎音仪已充电\n按开机键开机</string>
+
+    <string name="guide_operate_6_string">底部白色的平面为探头</string>
+
+    <string name="guide_operate_8_string">胎心位置处于脐下附中线的两侧\n毛毛附近</string>
+    <string name="guide_operate_9_string">胎心位置处于脐和毛毛之间或脐\n左右两侧孕期越小越贴近毛毛</string>
+    <string name="guide_operate_10_string">胎心位置处于脐两侧，孕期越大\n位置越高</string>
+
+    <string name="guide_operate_11_string">务必听到稳定连续胎心音后\n查看曲线和数字即为宝宝的胎心音</string>
+    <string name="guide_operate_13_string">1 长按2s开机键开机，再次长按2s关机</string>
+    <string name="guide_operate_14_string">从腰下穿过绑带，将探头贴在胎\n心位置，找到连续稳定有节奏的声音</string>
+    <string name="guide_operate_15_string">探头找到最佳位置，听到\n稳定胎心音后，固定好绑带\n点击\“开始监护\”</string>
+    <string name="guide_operate_16_string">第一阶段 孕16-24周</string>
+    <string name="guide_operate_17_string">第二阶段 孕24-32周</string>
+    <string name="guide_operate_18_string">第三阶段 孕32-40周</string>
+    <string name="guide_operate_19_string">胎心稳定\n后曲线才\n准确</string>
+    <string name="guide_operate_20_string">在使用宫缩探头时，绑好宫缩\n探头开始检测后，请务必点击一下\n屏幕上的宫缩复位。</string>
+    <string name="guide_operate_21_string">点击宫缩\n复位按钮</string>
+
+    <!--我的胎心监护-->
+    <string name="fetal_heart_monitor_mine_title_string">我的胎心监护</string>
+    <string name="fetal_heart_monitor_mine_start_date_string">开通日期</string>
+    <string name="fetal_heart_monitor_mine_service_cycle_string">服务周期</string>
+    <string name="fetal_heart_monitor_mine_deadline_date_string">服务截止日期</string>
+    <string name="fetal_heart_monitor_mine_statue_string">监护状态</string>
+    <string name="fetal_heart_monitor_mine_proportion_string">剩余判读次数/总判读次数</string>
+    <string name="fetal_heart_monitor_mine_buy_service_string">购买服务包</string>
+    <string name="fetal_heart_monitor_mine_record_string">胎心监护记录</string>
+    <string name="fetal_heart_monitor_mine_meaning_string">常见问题</string>
+    <string name="fetal_heart_monitor_mine_ing_string">监测中</string>
+    <string name="fetal_heart_monitor_mine_end_string">已结束</string>
+    <string name="fetal_heart_monitor_unregister_tip_string">用户未登记！</string>
+    <string name="fetalheart_monitor_end_string">结束监护</string>
+    <string name="fetalheart_monitor_agagin_monitor_string">重新监测</string>
+    <string name="fetalheart_monitor_agagin_monitor_tip_string">确定要重新监测？</string>
+
+    <!--胎监意义-->
+    <string name="fetal_monitor_meaning_title_string">常见问题</string>
+
+    <!--胎心监护记录-->
+    <string name="fetal_heart_record_title_string">胎心监护记录</string>
+    <string name="fetal_heart_min_string">分</string>
+    <string name="fetal_heart_second_string">秒</string>
+    <string name="fetal_heart_waiting_string">等待回复</string>
+    <string name="fetal_heart_check_report_string">查看报告</string>
+    <string name="fetal_heart_ask_doctor_string">问医生</string>
+    <string name="fetal_heart_service_out_date_string">服务包已过期！</string>
+    <string name="fetal_heart_no_service_string">无剩余判读次数！</string>
+    <string name="fetal_heart_ask_doctor_tip_string">问医后，您套餐内的判读次数将会被扣除一次，是否继续问医？</string>
+
+    <!--支付成功-->
+    <string name="pay_success_has_tip_string">订单支付成功</string>
+    <string name="pay_success_location_get_tip_string">请到指定处领取设备</string>
+    <string name="pay_success_pay_way_string">支付方式：</string>
+    <string name="pay_success_money_string">支付金额：</string>
+    <string name="pay_success_complete_string">完成</string>
+    <string name="pay_success_weixin_string">微信支付</string>
+    <string name="pay_success_zfb_string">支付宝支付</string>
+    <string name="pay_success_money_unit_string">¥</string>
+
+    <!--支付失败-->
+    <string name="pay_fail_title_string">支付结果</string>
+    <string name="pay_fail_has_tip_string">订单支付失败</string>
+    <string name="pay_fail_pay_again_string">重新支付</string>
+    <string name="pay_fail_pay_give_up_string">放弃支付</string>
+    <string name="pay_fail_weixin_string">微信支付</string>
+    <string name="pay_fail_zfb_string">支付宝支付</string>
+    <string name="pay_fail_money_unit_string">¥</string>
+    <string name="pay_fail_complete_string">完成</string>
+
+    <!--判读报告-->
+    <string name="read_report_title_string">判读报告</string>
+    <string name="read_report_monitor_date_string">监测日期：</string>
+    <string name="read_report_consulting_number_string">咨询单号：</string>
+    <string name="read_report_name_string">姓名：</string>
+    <string name="read_report_gestational_weeks_string">孕周：</string>
+    <string name="read_report_age_string">年龄：</string>
+    <string name="read_report_tel_string">联系电话：</string>
+    <string name="read_report_monitor_time_string">监测时长：</string>
+    <string name="read_report_monitor_start_time_string">监测开始时间：</string>
+    <string name="read_report_monitor_end_time_string">监测结束时间：</string>
+    <string name="read_report_monitor_draw_string">胎心监测图</string>
+    <string name="read_report_read_result_string">判读结果</string>
+    <string name="read_report_doctor_suggestion_string">医生建议</string>
+    <string name="read_report_monitor_detail_string">监测详情</string>
+    <string name="read_report_doctor_string">医生：</string>
+    <string name="read_report_nst_string">NST评分表</string>
+
+    <string name="hot_area">热门地区</string>
+    <string name="networkError">网络错误</string>
+    <string name="search_hostory">搜索历史</string>
+    <string name="search_hot">热门搜索</string>
+    <string name="recomment_doctor">推荐医生</string>
+    <string name="disease_foot_tv"> ></string>
+    <string name="disease_tip_tv">相关疾病</string>
+    <string name="confirm_clear_search_history">确定要清除历史记录吗?</string>
+    <string name="message2">订单提醒</string>
+    <string name="message3">服务提醒</string>
+    <string name="message4">处方提醒</string>
+    <string name="message5">随访提醒</string>
+    <string name="message6">系统消息</string>
+    <string name="name_drugs">药品名称</string>
+    <string name="drugs_tongyon_name">[药品通用名]</string>
+    <string name="drugs_english_name">[药品全拼]</string>
+    <string name="drugs_goods_name">[商品名]</string>
+    <string name="component">成分</string>
+    <string name="detail_dugs">药品详情</string>
+    <string name="function">适应症</string>
+    <string name="Specification">规格</string>
+    <string name="Usage">用法用量</string>
+    <string name="UntowardEffect">不良反应</string>
+    <string name="Contraindication">禁忌</string>
+    <string name="Attention">注意事项</string>
+    <string name="ForPregnantLactating">妇女及哺乳期妇女用药</string>
+    <string name="ForChildren">儿童用药</string>
+    <string name="ForOldPeople">老人用药</string>
+    <string name="DrugInteraction">药物相互作用</string>
+    <string name="Pharmacodynamics">药理作用</string>
+    <string name="Shape">性状</string>
+    <string name="Package">包装</string>
+    <string name="StoreUp">贮藏</string>
+    <string name="alumb">相册</string>
+    <string name="versionUpdate">版本更新</string>
+    <string name="findNewVersion">发现新版本</string>
+    <string name="noMessageData">暂无消息</string>
+    <string name="chat_no_service_tips">您好，您暂未开启咨询对话功能，如需医生沟通可以选择下方图文咨询服务功能，也可以选择该医生开通的其他功能。</string>
+    <string name="me_tool12">我的关注</string>
+    <string name="device_connect_title_string">设备连接</string>
+
+    <string name="share_wechat_friend">微信好友</string>
+    <string name="share_wechat_zone">微信朋友圈</string>
+    <string name="monitor_detail_play_string">播放</string>
+    <string name="monitor_detail_share_string">分享</string>
+    <string name="common_cancel">取消</string>
+    <string name="read_report_data_unknown_string">找医生解读曲线</string>
+    <string name="order_service_select_patient_string">更改孕妇信息</string>
+    <string name="selectPaint">请选择就诊人</string>
+
+    <string name="price">￥650.00</string>
+    <string name="no_device_tip">请先确保胎心监护仪已开启</string>
+    <string name="no_bluee_tip">手机蓝牙未开启，请打开蓝牙</string>
+    <string name="mySocial">社保资料</string>
+    <string name="SecondDiagnosis">第二诊疗意"\见报告</string>
+    <string name="registerSuccess">注册成功</string>
+    <string name="monitor_setting_move_monitor_string">是否自动胎动监测</string>
+    <string name="monitor_setting_modify_fail_string">修改失败！</string>
+    <string name="addressError">位置信息解析错误</string>
+    <string name="exitApp">再按一次退出程序</string>
+    <string name="pleaseSelectPatient">请选择就诊人</string>
+    <string name="patientNotNewBorn">当前选择就诊人不能为新生儿</string>
+    <string name="PatientNotMan">当前选择就诊人不能为男性</string>
+    <string name="pleaseFillPatientInfo">就诊人信息不全，请先完善就诊人信息</string>
+    <string name="enterDate">请输入预产期</string>
+    <string name="download">版本更新</string>
+    <string name="calc">计算中...</string>
+    <string name="second_diagnosis">第二诊疗意见</string>
+    <string name="dateError">孕产期大于40周，请重新选择</string>
+    <string name="user_note_register_fail_string">注册失败！</string>
+    <string name="tokenFailed">登录过期，请重新登录！</string>
+</resources>

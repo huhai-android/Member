@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boder_white_oval"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_3"
+        android:paddingEnd="@dimen/dp_10"
+        android:paddingStart="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_3">
+
+        <RelativeLayout
+            android:id="@+id/title_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/service_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.2"
+                android:text="医生回复提醒:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_14" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/service_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.2"
+                android:textColor="@color/gray"
+                />
+            <TextView
+                android:id="@+id/service_paceage_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:textColor="@color/plugin_camera_black" />
+        </LinearLayout>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/service_detail_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/check_detail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_35"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/check_detail_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="查看详情"
+                android:textColor="@color/gray" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_right" />
+        </RelativeLayout>
+
+        <!--  <com.newdjk.doctor.views.ItemView
+              android:id="@+id/check_detail"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/dp_35"
+              app:SetRightImg="@drawable/ic_right"
+              app:leftTVText="@string/check_detail" />-->
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_100"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/doctor_head_image_iv"
+            android:layout_width="@dimen/dp_68"
+            android:layout_height="@dimen/dp_68"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_18"
+            />
+
+        <RelativeLayout
+            android:layout_toRightOf="@id/doctor_head_image_iv"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/doctor_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_18"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/doctor_department_tv"
+                android:layout_alignBottom="@id/doctor_name_tv"
+                android:layout_marginBottom="@dimen/dp_2"
+                android:layout_marginLeft="@dimen/dp_100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/doctor_hospital_tv"
+                android:layout_below="@id/doctor_name_tv"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/font_gray_5"
+                />
+
+            <TextView
+                android:id="@+id/doctor_position_tv"
+                android:layout_below="@id/doctor_hospital_tv"
+                android:layout_marginTop="@dimen/dp_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/font_gray_5"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
